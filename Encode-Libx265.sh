@@ -1,6 +1,6 @@
-# ffmpeg -h encoder=libx265
-
-
+#!/bin/bash
+# Helps encode videos with FFMPEG Libx264 or Libx265.
+# Allows the user to specify a clip "Time-in" and "Time-out".
 
 file="$1"
 codec="$2"
